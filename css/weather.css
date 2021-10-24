@@ -1,0 +1,115 @@
+
+body{
+    background-color: rgb(30, 32, 43);
+    height: 100vh;
+    line-height: 1.9;
+    font-family: century-gothic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav-link,a
+{
+    margin-bottom: 2px;
+    margin-top: 5px;
+    font-size: 1.14286em;
+    color: white;
+    padding: 5px 0;
+}
+
+
+.col-md-4{
+    grid-template-columns: 1fr 1fr 1fr 1fr;  
+    grid-template-rows:1fr 1fr 1fr 1fr ;
+    height: 100px;
+
+}
+
+
+.footercolor{
+   background-color: rgb(38, 41, 54);
+   height: 300px;
+   width: 100%;
+}
+.searchbtn{
+    background: #1e202b ;
+    width: 90% !important;
+    color: white ;
+    border: none;
+    position: relative;
+    
+    
+   
+}
+
+
+.iconss i{
+   color: #009ad8;
+   padding-top: 10px;
+   padding-left: 30px;
+
+}
+.copyright{
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.image-fluid{
+    height: 100vh;
+}
+
+/*.card-one
+{
+    background-color: #009ad8;
+}
+
+.top-part{
+   background-color: rgb(38, 41, 54);
+   color: azure;
+}
+
+.card-data{
+    background-color: #17a2b8;
+} */
+
+.current-day{
+    color: white;
+}
+
+.part-one{
+    background-color: #374850 ;
+
+}
+
+.part-two{
+      background-color:#3199ab ;
+}
+
+.bgsize{
+    background-image: url('../images4/banner.png');
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.input-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-h{
+    height: 45px;
+    width: 550px;
+    padding: 20px;
+    border: none;
+}
+.left{
+    float: right;
+}
+.clear{
+    float: both;
+}
+
+ 
